@@ -1,7 +1,14 @@
 # Fluent Reveal
 Provide the Reveal effects based on the Fluent Design System.
 
-## 中文
+## Demo
+
+- Masked [Here](https://aleversn.github.io/VFluent/zh/Button/)
+- Direct [Here](https://aleversn.github.io/VFluent/zh/ListView/)
+
+## Doc ([English](#en) | [中文](#ch))
+
+## 中文 <div id="ch"></div>
 基于 [FluentRevealEffect](https://github.com/d2phap/fluent-reveal-effect)
 
 在原作者基础上本项目做出以下改进:
@@ -75,7 +82,7 @@ let FR = new RevealEffects("body", {
 });
 ```
 
-## English
+## English <div id="en"></div>
 
 Based on [FluentRevealEffect](https://github.com/d2phap/fluent-reveal-effect)
 
@@ -154,8 +161,3 @@ let FR = new RevealEffects("body", {
     backgroundLightColor: "rgba(255, 255, 255, 0.25)"
 });
 ```
-
-## Demo
-
-- Masked [Here](https://aleversn.github.io/VFluent/zh/Button/)
-- Direct [Here](https://aleversn.github.io/VFluent/zh/ListView/)
