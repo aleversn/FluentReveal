@@ -6,7 +6,7 @@ Provide the Reveal effects based on the Fluent Design System.
 - Masked [Here](https://aleversn.github.io/VFluent/zh/Button/)
 - Direct [Here](https://aleversn.github.io/VFluent/zh/ListView/)
 
-## Doc ([English](#en) | [中文](#ch))
+** Doc ([English](#en) | [中文](#ch)) **
 
 ## 中文 <div id="ch"></div>
 基于 [FluentRevealEffect](https://github.com/d2phap/fluent-reveal-effect)
@@ -87,11 +87,6 @@ let FR = new RevealEffects("body", {
 Based on [FluentRevealEffect](https://github.com/d2phap/fluent-reveal-effect)
 
 There are some improvements made to this project on the basis of the original author:
-
-1. 本项目提供两种`Reveal`版本, 一种是基于背景元素遮罩的(原作者版本), 另一种是基于元素自身的反射. 基于背景元素遮罩的效果在整个组件半透明状态时无法体现`Reveal Border`的效果. 基于元素自身反射的版本支持透明背景的`Reveal Border`, 但是无法实现圆角状态的显示.
-2. 本项目定义了全局的元素回收器和`Reveal`效果触发阈值, 有效地降低了性能损耗, 通过及时的回收元素避免了元素过多导致的卡顿问题.
-3. 本项目提供的`Click Wave`效果在原版本基础上增加了点击时的涟漪效果, 更贴近`Windows 10 UWP`原生的`Reveal`效果.
-4. 应用效果时支持元素以`选择器`形式或`变量`形式被指定.
 
 1. This project offers two 'Reveal' versions, one is based on the background element mask (the original author version) and the other based on the reflection of the element itself. The background element-based matte effect does not reflect the effect of `Reveal Border` when the entire component is translucent. Versions based on the reflection of the element itself support `Reveal Border` with a transparent background, but cannot be displayed in `border-radius` status.
 2. This project defines the global element recycler and `Reveal` effect trigger threshold, effectively reducing performance loss, avoiding the Caton problem caused by excessive elements by recycling elements in a timely manner.
