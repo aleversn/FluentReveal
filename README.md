@@ -6,7 +6,7 @@ Provide the Reveal effects based on the Fluent Design System.
 - Masked [Here](https://aleversn.github.io/VFluent/zh/Button/)
 - Direct [Here](https://aleversn.github.io/VFluent/zh/ListView/)
 
-** Doc ([English](#en) | [中文](#ch)) **
+### Doc ([English](#en) | [中文](#ch))
 
 ## 中文 <div id="ch"></div>
 基于 [FluentRevealEffect](https://github.com/d2phap/fluent-reveal-effect)
